@@ -6,7 +6,7 @@ body{
 
 /* Header */
 
-header {
+.header {
 		background: #fff;
 		color: #555f66;
 		height: 3em;
@@ -15,11 +15,11 @@ header {
 		top: 0;
 		width: 100%;
 
-        /*position: fixed;
-        z-index: 10000;*/
+        position: fixed;
+        z-index: 10000;
 	}
 
-header h1 {
+.header h1 {
 			color: #666f77;
 			font-weight: 500;
 			height: inherit;
@@ -29,145 +29,168 @@ header h1 {
             top: 0;
 		}
 
-header h1 a {
+.header h1 a {
             font-size: 1.25em;
         }
 
-header nav {
+.header nav {
         right: 1.25em;
         top: 0;
         vertical-align: middle;
 
-        /*position: absolute;*/
+        position: absolute;
     }
 
-header nav > ul {
+.header nav > ul {
             list-style: none;
             margin: 0;
             padding-left: 0;
         }
 
-header nav > ul > li {
+.header nav > ul > li {
                 border-radius: 6px;
                 display: inline-block;
                 margin-left: 2em;
                 padding-left: 0;
             }
 
-header nav > ul > li a {
+.header nav > ul > li a {
                     color: #555f66;
                     display: inline-block;
                     text-decoration: none;
                 }
 
-header nav > ul > li a:hover {
+.header nav > ul > li a:hover {
                         color: #629DD1;
                     }
 
-header nav > ul > li:first-child {
+.header nav > ul > li:first-child {
                     margin-left: 0;
                 }
 
 
 /* Banner */
-/*
+.banner {
+	background-color: #666666;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #d8d8d8;
+	padding: 14em 0;
+	text-align: center;
+	position: relative;
+}
+
 #banner {
-                		background-color: #666666;
-                		background-image: url("../images/banner.jpg");
-                		background-size: cover;
-                		background-position: center center;
-                		background-repeat: no-repeat;
-                		color: #d8d8d8;
-                		padding: 14em 0;
-                		text-align: center;
-                		position: relative;
-                	}
-*/
-/*
-#banner h2 {
-        			color: #ffffff;
-        			font-size: 3.5em;
-        			line-height: 1em;
-        			margin: 0 0 0.5em 0;
-        			padding: 0;
-        		}
+background-image: url("../images/banner.jpg");
+}
 
-#banner p {
-    			font-size: 1.5em;
-    			margin-bottom: 2em;
-       		}
 
-#banner p a {
-    				color: #ffffff;
-    				text-decoration: none;
-        			}
+.banner h2 {
+	color: #ffffff;
+	font-size: 3.5em;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
 
-*/
-/*
+.banner p {
+	font-size: 1.5em;
+	margin-bottom: 2em;
+}
+
+.banner p a {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* Blog */
+
+#blog {
+background-image: url("../images/blog.jpg");
+}
+
+
 .button {
-                                    		background-color: #192024;
-                                    		border-radius: 6px;
-                                    		border: 0;
-                                    		color: #ffffff !important;
-                                    		display: inline-block;
-                                    		font-weight: 300;
-                                    		text-transform: uppercase;
-                                    		letter-spacing: 0.125em;
-                                    		font-size: 0.9em;
-                                    		height: 2.85em;
-                                    		line-height: 2.85em;
-                                    		padding: 0 1.75em;
-                                    		text-align: center;
-                                    		text-decoration: none;
-                                    		white-space: nowrap;
-                                    		text-indent: 0.25em;
-                                    	}
-*/
-/*
+    background-color: #192024;
+    border-radius: 6px;
+    border: 0;
+    color: #ffffff !important;
+    display: inline-block;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 0.9em;
+    height: 2.85em;
+    line-height: 2.85em;
+    padding: 0 1.75em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-indent: 0.25em;
+}
 ul.actions {
-                        cursor: default;
-                        list-style: none;
-                        padding-left: 0;
-                    }
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
 
 ul.actions li {
-                            display: inline-block;
-                            padding: 0 1em 0 0;
-                            vertical-align: middle;
-                        }
+    display: inline-block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+}
 
 ul.actions li:last-child {
-                                padding-right: 0;
-                            }
-*/
-/*
-#banner .button {
-                			min-width: 12em;
-                		}
+    padding-right: 0;
+}
+.banner .button {
+	min-width: 12em;
+}
 
 .button.special {
-                            background-color: #629DD1;
-                            color: #ffffff;
-                        }
+    background-color: #629DD1;
+    color: #ffffff;
+}
 .button.special:hover {
-                            background-color: #76a9d7;
-                        }
+    background-color: #76a9d7;
+}
 .button.special:active {
-            				background-color: #4e91cb;
-            			}
+    background-color: #4e91cb;
+}
 .button.alt {
-                            background-color: transparent;
-                            color: #666f77;
-                        }
+    background-color: transparent;
+    color: #666f77;
+}
 .button.alt:hover {
-                            background-color: rgba(244, 244, 244, 0.075);
-                            color: #ffffff;
-                        }
+    background-color: rgba(244, 244, 244, 0.075);
+    color: #ffffff;
+}
 .button.alt:active {
-                            background-color: rgba(244, 244, 244, 0.2);
-                            color: #ffffff;
-                        }
-*/
+    background-color: rgba(244, 244, 244, 0.2);
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Grid */
+
+.col, .col-9, .col-7, .col-3, .col-5 {
+  margin: 0 1.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-7 {
+  width: 64%;
+}
+
+.col-3 {
+  width: 29%;
+}
 /* Services */
 .services{
   background: #303030;
@@ -261,4 +284,198 @@ ul.actions li:last-child {
 	background: #62bc30;
 	top: 2px;
 
+}
+
+.clear {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+
+.clearfix:after {
+    clear:both;
+    content:' ';
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+    width:0
+}
+
+
+.blog_post a.post_title, .blog_post span.post_title {
+	font-size:24px;
+	color:#262626;
+	text-decoration:none;
+}
+.blog_post a.post_title strong, .blog_post span.post_title strong {
+	font-weight:600;
+	color:#262626;
+}
+.blog_post a.post_title:hover strong {
+	color:#d93e39;
+}
+.blog_post a.post_title:hover {
+	color:#d93e39;
+	text-decoration:underline;
+}
+
+.blog_post .image_block {
+	position:relative;
+	border:1px solid #cccccc;
+	padding:5px 5px 0 5px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	margin:10px 0 15px 0;
+}
+.blog_post .image_block img {
+	max-width:100%;
+}
+
+.published.not_showing {
+	display:none;
+}
+.blog_post .date {
+	padding:4px 0 0 18px;
+	font-size:11px;
+	line-height:11px;
+	background:url("../images/blog_date.png") no-repeat center left;
+	color:#999999;
+	float:left;
+	height:13px;
+	display:inline-block;
+	margin:0 10px 10px 0;
+}
+.blog_post .author {
+	padding:4px 0 0 18px;
+	font-size:11px;
+	line-height:11px;
+	background:url("../images/blog_author.png") no-repeat center left;
+	color:#999999;
+	float:left;
+	height:13px;
+	display:inline-block;
+	margin:0 10px 10px 0;
+}
+.blog_post .category {
+	padding:4px 0 0 18px;
+	font-size:11px;
+	line-height:11px;
+	background:url("../images/blog_category.png") no-repeat center left;
+	color:#999999;
+	float:left;
+	height:13px;
+	display:inline-block;
+	margin:0 10px 10px 0;
+}
+.blog_post .share {
+	padding:4px 0 0 20px;
+	font-size:11px;
+	line-height:11px;
+	background:url("../images/blog_share.png") no-repeat center left;
+	color:#999999;
+	float:left;
+	height:13px;
+	display:inline-block;
+	margin:0 10px 10px 0;
+}
+.blog_post .number_comments {
+	background:url("../images/recent_post_comments.png") no-repeat left 85%;
+	display:inline-block;
+	color:#a6a6a6;
+	padding:4px 0 0 15px;
+	font-size:11px;
+	line-height:11px;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.post-meta {
+	border-bottom:1px solid #e6e6e6;
+	margin-bottom:20px;
+}
+/* ================= Categories ================= */
+.categories ul {
+	margin:-10px 0 0 0;
+}
+.categories ul li a {
+}
+.categories ul li a:hover, .categories ul li a.selected {
+	text-decoration:none;
+	color:#d93e39;
+}
+
+/* ================= Last Tweet ================= */
+.tweet {
+	margin-bottom:20px;
+}
+.tweet p {
+	margin:0 0 0px 0;
+}
+.tweet .title {
+	color:#d93e39;
+	font-weight:bold;
+	padding:0 0 2px 0;
+}
+.tweet .hour {
+	font-size:10px;
+	line-height:11px;
+	color:#B2B2B6;
+}
+
+/* ================= Recent Posts ================= */
+.recent_post {
+	margin:0 0 15px 0;
+}
+.recent_post .image {
+	width:20%;
+	float:left;
+	border:1px solid #cccccc;
+	padding:5px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.recent_post .image img {
+	margin:0;
+	padding:0;
+    max-width:100%;
+
+}
+.recent_post .text {
+	width:70%;
+	float:right;
+	padding:0 0 0 10px;
+}
+
+.recent_post .text a.title {
+	text-decoration:none;
+	color:#666666;
+	font-size:11px;
+	border:0;
+	padding:0;
+	line-height:23px;
+}
+.recent_post .text a.title:hover {
+	text-decoration:underline;
+	color:#d93e39;
+}
+.recent_post .text .comments {
+	background:url("../images/recent_post_comments.png") no-repeat left 85%;
+	display:inline-block;
+	color:#a6a6a6;
+	padding:6px 0 0 13px;
+	font-size:11px;
+	line-height:11px;
+}
+.recent_post .text .time {
+	background:url("../images/hour.png") no-repeat left 85%;
+	display:inline-block;
+	color:#a6a6a6;
+	font-size:11px;
+	padding:2px 5px 0 13px;
+	line-height:11px;
 }
