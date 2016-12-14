@@ -3,28 +3,136 @@
     <head>
         <title>About Page</title>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
         <link href="css/main.css" rel="stylesheet" />
     </head>
 <body>
-<div>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="about.html">About</a>
-        </li>
-        <li>
-            <a href="blog.html">Blog</a>
-        </li>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-    </ul>
-</div>
+    <header class="header">
+        <h1>LOGO</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
 
-<div>
-    <h1>About Page</h1>
+    <!-- Banner -->
+    <section id="banner" class="banner">
+        <article>
+            <hgroup>
+                <h2>About Page</h2>
+            </hgroup>
+            <p>Dat product subline is so nice it blows your mind. <a href="#">Order yours now!</a></p>
+            <ul class="actions">
+                <li><a href="#content" class="button special">Sign Up</a></li>
+                <li><a href="#elements" class="button alt">Learn More</a></li>
+            </ul>
+        </article>
+    </section>
+
+<section class="tab-area tabs-target">
+
+    <span class="target-fix" id="tabC"></span>
+    <span class="target-fix" id="tabB"></span>
+    <span class="target-fix" id="tabA"></span>
+
+    <a class="tab-link" href="#tabA">Tab 1</a>
+    <a class="tab-link" href="#tabB">Tab 2</a>
+    <a class="tab-link" href="#tabC">Tab 3</a>
+
+    <article class="tab">
+        <h3>:target is the most common selector for odd css demos. However you get a jump when you click an anchor, I've fixed that here.</h3>
+    </article>
+    <article class="tab">
+        <h3>Tab 2</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+    <article class="tab">
+        <h3>Tab 3</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+
+
+</section>
+
+<section class="tab-area tabs-focus">
+    <h2 class="title">Focus Tabs</h2>
+    <p><strong>Non-Independent, No Default Selected</strong></p>
+    <p>Works In: Chrome(latest), Opera(Latest), FireFox(Latest), IE9</p>
+
+    <span class="tab-link" tabindex="1"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; HomePage</span>
+    <span class="tab-link" tabindex="2"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</span>
+    <span class="tab-link" tabindex="3"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</span>
+
+    <article class="tab" tabindex="0">
+        <h3>Tab 3</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+    <article class="tab" tabindex="0">
+        <h3>Tab 2</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+    <article class="tab" tabindex="0">
+        <h3>This one is pretty rubbish. :focus isn't easy to work with as you can't set defaults and it loses focus from anything.</h3>
+    </article>
+
+
+
+</section>
+
+
+<section class="tab-area tabs-hover">
+    <h2 class="title">Hover Tabs</h2>
+    <p><strong>Non-Independent, No Default Selected</strong></p>
+    <p>Works In: Chrome(latest), Opera(Latest), FireFox(Latest), IE9</p>
+
+    <span class="tab-link" tabindex="1">Tab 1</span>
+    <span class="tab-link" tabindex="2">Tab 2</span>
+    <span class="tab-link" tabindex="3">Tab 3</span>
+
+    <article class="tab">
+        <h3>Tab 3</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+    <article class="tab">
+        <h3>Tab 2</h3>
+        <p>Lorem Ipsum Dolor Sit</p>
+    </article>
+    <article class="tab">
+        <h3>I really just made this so I could say I have 4 instead of 3. Although hover can be used for more than you'd think, it's very impractical.</h3>
+    </article>
+
+
+
+</section>
+
+<h1>Accordion Examples</h1>
+
+<div class="accordion vertical">
+  <section id="about">
+      <h2><a href="#about">About Us</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+  </section>
+  <section id="services">
+      <h2><a href="#services">Services</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+  </section>
+  <section id="blog">
+      <h2><a href="#blog">Blog</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+  </section>
+  <section id="portfolio">
+      <h2><a href="#portfolio">Portfolio</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+  </section>
+  <section id="contact">
+      <h2><a href="#contact">Contact</a></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id lobortis massa. Nunc viverra velit leo, sit amet elementum mi. Fusce posuere nunc a mi tempus malesuada. Curabitur facilisis rhoncus eros eget placerat. Aliquam semper mauris sit amet justo tempor nec lacinia magna molestie. Etiam placerat congue dolor vitae adipiscing. Aliquam ac erat lorem, ut iaculis justo. Etiam mattis dignissim gravida. Aliquam nec justo ante, non semper mi. Nulla consectetur interdum massa, vel porta enim vulputate sed. Maecenas elit quam, egestas eget placerat non, fringilla vel eros. Nam vehicula elementum nulla sed consequat. Phasellus eu erat enim. Praesent at magna non massa dapibus scelerisque in eu lorem.</p>
+  </section>
 </div>
 </body>
 </html>
