@@ -1,0 +1,81 @@
+body{
+  background: #303030;
+}
+
+.pricing-table {
+	margin: 100px auto;
+	text-align: center;
+	width: 892px; /* total computed width = 222 x 3 + 226 */
+}
+.pricing-table .plan {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0 1px rgba(255,255,255,.8);
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #333;
+	padding: 20px;
+	width: 180px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
+}
+
+/* --------------- */
+
+.pricing-table ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pricing-table li {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+/* --------------- */
+.pricing-table h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px;
+	margin: -20px -20px 50px -20px;
+	background-color: #eee;
+
+}
+
+.pricing-table h3 span {
+	display: block;
+	font: bold 25px/100px Georgia, Serif;
+	color: #777;
+	background: #fff;
+	border: 5px solid #fff;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto -65px;
+	border-radius: 100px;
+
+}
+
+.pricing-table .signup {
+
+	padding: 8px 20px;
+	margin: 20px 0 0 0;
+	color: #fff;
+	font: bold 14px Arial, Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #72ce3f;
+
+	border-radius: 3px;
+	text-shadow: 0 1px 0 rgba(0,0,0,.3);
+
+}
+
+.pricing-table .signup:hover {
+	background-color: #62bc30;
+
+}
+
+.pricing-table .signup:active, .pricing-table .signup:focus {
+	background: #62bc30;
+	top: 2px;
+
+}
