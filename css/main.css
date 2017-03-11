@@ -1,0 +1,82 @@
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+:root {
+  color: #2E282A;
+  font-family: 'Open Sans';
+}
+
+body {
+  background-color: #EFF1F3;
+}
+
+.home {
+  background-color: #17BEBB;
+  border-bottom: 0.5em solid #2E282A;
+  color: #2E282A;
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 4.5em 2em;
+}
+
+.home p {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Roboto Slab';
+  font-size: 3.5em;
+  margin: 0 0 0.25em;
+}
+
+img {
+    max-width: 100%;
+}
+.p-about {
+  padding: 10em 0;
+  background: url("../images/04.jpg") fixed no-repeat;
+  background-size: cover;
+}
+
+.p-blog {
+  padding: 10em 0;
+  background: url("../images/04.jpg") fixed no-repeat;
+  background-size: cover;
+}
+
+.p-contact {
+  padding: 10em 0;
+  background: url("../images/04.jpg") fixed no-repeat;
+  background-size: cover;
+}
+a {
+  color: #17BEBB;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #2E282A;
+  color: #EFF1F3;
+  margin-top: 4em;
+  padding: 4em 2em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #17BEBB;
+}
+
+.circle {
+  border-radius: 50%;
+}
+h2 {
+    text-align: center;
+}

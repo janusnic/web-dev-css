@@ -1,0 +1,5 @@
+.flex-row {
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 1em;
+}
